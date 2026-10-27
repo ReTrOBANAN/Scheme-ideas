@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Проекты — Схема Идей</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                Схема <span>Идей</span>
+            </a>
+
+            <nav class="nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="projects.html" aria-current="page">Проекты</a>
+                <a href="technology.html">Технологии</a>
+                <a href="about.html">Обо мне</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects container">
+            <div class="projects-header">
+                <p class="eyebrow">МОИ РАЗРАБОТКИ</p>
+                <h1>От идеи <span>до реализации.</span></h1>
+                <p class="description">
+                    Здесь представлены мои проекты в области
+                    программирования, электроники и
+                    искусственного интеллекта.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- ПРОЕКТ 1: ESP32 -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/lunaris.jpg" alt="Микроконтроллер и электронные компоненты">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">01 / ЭЛЕКТРОНИКА</p>
+                        <h2>Игрушка для аналитики ребёнка</h2>
+                        <p class="project-description">
+                            Игрушка на базе ESP32, которая
+                            считывает касания ребёнка с датчиков давления, смешивает цвета на RGB-ленте
+                            и передаёт полученные данные
+                            в мобильное приложение по Bluetooth.
+                        </p>
+                        <div class="project-tags">
+                            <span>ESP32</span>
+                            <span>FSR</span>
+                            <span>BLE</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ПРОЕКТ 2: COMPUTER VISION -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/volleyball.jpg" alt="Волейбольный матч">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">02 / COMPUTER VISION</p>
+                        <h2>Распознавание волейбольного мяча с помощью ИИ</h2>
+                        <p class="project-description">
+                            Проект компьютерного зрения
+                            для автоматического обнаружения
+                            волейбольного мяча на видеозаписях
+                            матчей.
+                        </p>
+                        <div class="project-tags">
+                            <span>YOLOv7</span>
+                            <span>Roboflow</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ПРОЕКТ 3: SCHOOL FORUM -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/site.jpg" alt="Разработка веб-приложения">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">03 / WEB DEVELOPMENT</p>
+                        <h2>Школьный форум вопросов и ответов</h2>
+                        <p class="project-description">
+                            Веб-платформа для школьников,
+                            где можно задавать вопросы,
+                            делиться знаниями и помогать
+                            другим учащимся находить ответы.
+                        </p>
+                        <div class="project-tags">
+                            <span>Frontend</span>
+                            <span>Backend</span>
+                            <span>Web</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <p class="footer-logo">Схема <span>Идей</span></p>
+                <p class="footer-description">От идеи до реализации.</p>
+            </div>
+
+            <p class="footer-copy">© 2026 Схема Идей</p>
+        </div>
+    </footer>
+</body>
+</html>

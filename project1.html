@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Проекты — Схема Идей</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                Схема <span>Идей</span>
+            </a>
+
+            <nav class="nav" aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="projects.html" aria-current="page">Проекты</a>
+                <a href="technology.html">Технологии</a>
+                <a href="about.html">Обо мне</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects container">
+
+            <div class="projects-header">
+                <p class="eyebrow">МОИ РАЗРАБОТКИ</p>
+                <h1>От идеи <span>до реализации.</span></h1>
+                <p class="description">
+                    Здесь я собираю свои проекты,
+                    эксперименты и исследования в области
+                    программирования, электроники и
+                    искусственного интеллекта.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- ПРОЕКТ 1: ESP32 -->
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/lunaris.jpg" alt="Микроконтроллер и электронные компоненты">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">01 / ЭЛЕКТРОНИКА</p>
+
+                        <h2>Система мониторинга давления на ESP32</h2>
+
+                        <p class="project-description">
+                            Игрушка на базе ESP32, которая
+                            считывает касания ребёнка с датчиков давления, смешивает цвета на RGB-ленте
+                            и передаёт полученные данные
+                            в мобильное приложение по Bluetooth.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>ESP32</span>
+                            <span>FSR</span>
+                            <span>BLE</span>
+                        </div>
+
+                        <details class="project-details">
+                            <summary>Подробнее о проекте</summary>
+                            <p>
+                                Датчики FSR изменяют своё
+                                сопротивление под действием
+                                давления. ESP32 считывает
+                                их показания и передаёт данные
+                                через Bluetooth Low Energy (BLE)
+                                в мобильное приложение.
+                                Это позволяет получать информацию
+                                об активности ребёнка.
+                            </p>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- ПРОЕКТ 2: COMPUTER VISION -->
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/volleyball.jpg" alt="Волейбольный матч">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">02 / COMPUTER VISION</p>
+
+                        <h2>Распознавание волейбольного мяча с помощью ИИ</h2>
+
+                        <p class="project-description">
+                            Проект компьютерного зрения
+                            для автоматического обнаружения
+                            волейбольного мяча на видеозаписях
+                            матчей с использованием нейросети.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>YOLOv7</span>
+                            <span>Roboflow</span>
+                            <span>Computer Vision</span>
+                        </div>
+
+                        <details class="project-details">
+                            <summary>Подробнее о проекте</summary>
+                            <p>
+                                В основе проекта лежит
+                                модель обнаружения объектов
+                                YOLOv7. Для работы с данными
+                                использовался Roboflow.
+                                Нейросеть анализирует кадры
+                                видеозаписи и определяет
+                                расположение волейбольного мяча.
+                                Проект объединяет машинное
+                                обучение и спортивную аналитику.
+                            </p>
+                        </details>
+                    </div>
+                </article>
+
+                <!-- ПРОЕКТ 3: SCHOOL FORUM -->
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <img src="assets/site.jpg" alt="Разработка веб-приложения">
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">03 / WEB DEVELOPMENT</p>
+
+                        <h2>Школьный форум вопросов и ответов</h2>
+
+                        <p class="project-description">
+                            Веб-платформа для школьников,
+                            где можно задавать вопросы,
+                            делиться знаниями и помогать
+                            другим учащимся находить ответы.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Frontend</span>
+                            <span>Backend</span>
+                            <span>Web</span>
+                        </div>
+
+                        <details class="project-details">
+                            <summary>Подробнее о проекте</summary>
+                            <p>
+                                Форум создан для общения
+                                и взаимопомощи школьников.
+                                Пользователи могут публиковать
+                                свои вопросы и отвечать
+                                на вопросы других участников.
+                                Основная идея проекта —
+                                создать удобное пространство
+                                для обмена знаниями и
+                                обсуждения школьных тем.
+                            </p>
+                        </details>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
